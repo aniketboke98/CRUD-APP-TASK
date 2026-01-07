@@ -37,6 +37,22 @@
       "dueDate": "2026-01-29",
       "id": 5,
       "description": "Create responsive dashboard layout"
+    },
+    {
+      "taskTitle": "skdd",
+      "taskDescription": "eejl",
+      "taskStatus": "Completed",
+      "priority": "Medium",
+      "dueDate": "2026-01-23",
+      "id": 6
+    },
+    {
+      "taskTitle": "UI update",
+      "taskDescription": "akhdaa",
+      "taskStatus": "Completed",
+      "priority": "High",
+      "dueDate": "2026-01-27",
+      "id": 7
     }
   ]
 }
