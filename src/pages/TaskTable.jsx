@@ -29,23 +29,24 @@ useEffect(()=>{
 },[])
 console.log(data)
   return (
-    <table className='table'>
+    <table className='table table-striped'>
       <thead>
         <tr>
-        <td>ID</td>
-        <td>TASK TITLE</td>
-        <td>TASK DESCRIPTION</td>
-        <td>TASK STATUS</td>
-        <td>TASK PRIORITY</td>
-        <td>DUE DATE</td>
+        <th>ID</th>
+        <th>TASK TITLE</th>
+        <th>TASK DESCRIPTION</th>
+        <th>TASK STATUS</th>
+        <th>TASK PRIORITY</th>
+        <th>DUE DATE</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
+        
           {
           data.map((val,index)=>{
+            
             return(
-            <>
+            <tr key={index}>
             <td>{val.id}</td>
             <td>{val.taskTitle}</td>
             <td>{val.taskDescription}</td>
@@ -55,11 +56,12 @@ console.log(data)
             <td onClick={(id)=>deleteData(val.id)}><i class="bi bi-trash3 text-danger fs-5"></i></td>
             <td> <Link to={`/taskgo/${val.id}`}><i class="bi bi-pencil-square fs-5"> </i></Link></td>
             
-            </>
+            </tr>
             )
+            
           })
         }
-        </tr>
+        
       </tbody>
     </table>
   )

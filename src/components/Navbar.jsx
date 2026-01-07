@@ -15,9 +15,6 @@ const Navbar = () => {
                 <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
                 </li>
                 <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/taskgo">Task edit</NavLink>
-                </li>
-                <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/taskadd">Task add</NavLink>
                 </li>
             </ul>
