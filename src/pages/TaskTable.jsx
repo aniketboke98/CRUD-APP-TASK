@@ -6,7 +6,7 @@ const TaskTable = () => {
 const [data, setData] = useState([]);
   const getTableData =async()=>{
     try{
-      const result = await axios.get('http://localhost:3000/tasks')
+      const result = await axios.get('http://74.225.243.159:3000/tasks')
       console.log(result.data)
       setData(result.data)
     }catch(err){
@@ -18,7 +18,7 @@ const deleteData = async(id)=>{
   try{
     const result = data.filter((val) => val.id !== id )
     setData(result)
-    await axios.delete('http://localhost:3000/tasks/{id}')
+    await axios.delete('http://74.225.243.159:3000/tasks/{id}')
   }catch(err){
 
   }
