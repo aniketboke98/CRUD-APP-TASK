@@ -17,7 +17,7 @@ const TaskRow = () => {
   const submitHamdler = async (e) => {
     e.preventDefault()
     try {
-      await axios.post('http://74.225.243.159:3000/tasks/', data)
+      await axios.post('https://api.vynotcg.com/tasks/', data)
 
       // Reset form after submit
       setData({
