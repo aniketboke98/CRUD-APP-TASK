@@ -6,7 +6,7 @@ const TaskForm = () => {
   const [data, setData] = useState({taskTitle:'',taskDescription:'', taskStatus:'',priority:'', dueDate:''})
   const getTableData = async(e)=>{
     try{
-      const result = await axios.get(`http://74.225.243.159:3000/tasks/${id}`)
+      const result = await axios.get(`https://api.vynotcg.com/tasks/${id}`)
       
       setData({
         taskTitle:result.data.taskTitle,
@@ -25,7 +25,7 @@ const TaskForm = () => {
   const submitHamdler=async(e)=>{
       e.preventDefault();
       try{
-        await axios.patch(`http://74.225.243.159:3000/tasks/${id}`,data)
+        await axios.patch(`https://api.vynotcg.com/tasks/${id}`,data)
       }catch(err){
 
       }
