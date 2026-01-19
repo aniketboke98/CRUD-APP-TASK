@@ -1,0 +1,105 @@
+{
+  "register": [
+    {
+      "id": 1,
+      "name": "Kunal",
+      "email": "nikamkual70@gmail.com",
+      "number": "7666529251",
+      "password": "@Harry#321",
+      "role": "admin"
+    },
+    {
+      "name": "Pawan Dhake",
+      "email": "pawan21@gmail.com",
+      "number": "7788997755",
+      "password": "@Dhake321",
+      "id": 7
+    },
+    {
+      "name": "Aniket Boke",
+      "email": "aniket321@gmail.com",
+      "number": "7700332211",
+      "password": "@Aniket33",
+      "role": "",
+      "id": 8
+    },
+    {
+      "name": "Jay Mane",
+      "email": "jaymane@gmail.com",
+      "number": "667676786",
+      "password": "@Jay11",
+      "id": 9
+    },
+    {
+      "name": "Sashi Kumar",
+      "email": "sashi@gmail.com",
+      "number": "9213457654",
+      "password": "@sashi26",
+      "role": "",
+      "id": 11
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "mail": "kunalnikam.scoe.comp@gmail.com",
+      "pass": "#Sonny@123"
+    }
+  ],
+  "bookings": [
+    {
+      "user": "Pawan Dhake",
+      "email": "pawan21@gmail.com",
+      "tour": "Tarkarli",
+      "price": "₹4999.00/-",
+      "status": "Pending",
+      "date": "16/1/2026",
+      "id": 7
+    },
+    {
+      "user": "Pawan Dhake",
+      "email": "pawan21@gmail.com",
+      "tour": "Vasota Fort Camping",
+      "price": "₹2499.00/-",
+      "status": "Cancelled",
+      "date": "16/1/2026",
+      "id": 9
+    },
+    {
+      "user": "Kunal",
+      "email": "nikamkual70@gmail.com",
+      "tour": "Ganpatipule",
+      "price": "₹3499.00/-",
+      "status": "Pending",
+      "date": "17/1/2026",
+      "id": 11
+    },
+    {
+      "user": "Sashi Kumar",
+      "email": "sashi@gmail.com",
+      "tour": "Are Ware",
+      "price": "₹3999.00/-",
+      "status": "Pending",
+      "date": "17/1/2026",
+      "id": 12
+    },
+    {
+      "user": "Genius",
+      "email": "genius@gmail.com",
+      "tour": "Tadoba Tiger Reserve From Pune",
+      "price": "₹4999.00/-",
+      "status": "Confirmed",
+      "date": "17/1/2026",
+      "id": 13
+    },
+    {
+      "user": "Aniket Boke",
+      "email": "aniket321@gmail.com",
+      "tour": "Sandhan Valley Camping",
+      "price": "₹1999.00/-",
+      "status": "Confirmed",
+      "date": "19/1/2026",
+      "id": 14
+    }
+  ]
+}
